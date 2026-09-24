@@ -327,27 +327,45 @@
       </div>
 
       <div class="form-row">
-        <div class="field">
-          <label for="vehicleType">Type of Vehicle</label>
-          <select id="vehicleType" name="vehicleType" required>
-            <option value="">Type of Vehicle</option>
-            <option value="v-class">Mercedes-Benz V-Class</option>
-            <option value="not-sure">Not sure — advise me</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="passengers">Passengers</label>
-          <input
-  type="number"
-  id="passengers"
-  name="passengers"
-  placeholder="Number of Passengers"
-  min="1"
-  max="6"
-  required
->
-        </div>
-      </div>
+  <div class="field">
+    <label for="vehicleType">Type of Vehicle</label>
+    <select id="vehicleType" name="vehicleType" required>
+      <option value="">Type of Vehicle</option>
+      <option value="v-class">Mercedes-Benz V-Class</option>
+      <option value="not-sure">Not sure — advise me</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="passengers">Passengers</label>
+    <select id="passengers" name="passengers" required>
+      <option value="">Number of Passengers</option>
+      <option value="1">1 Passenger</option>
+      <option value="2">2 Passengers</option>
+      <option value="3">3 Passengers</option>
+      <option value="4">4 Passengers</option>
+      <option value="5">5 Passengers</option>
+      <option value="6">6 Passengers</option>
+    </select>
+  </div>
+</div>
+
+<div class="field">
+  <label for="luggage">Luggage</label>
+  <select id="luggage" name="luggage" required>
+    <option value="">Select Luggage</option>
+    <option value="hand-luggage-only">Hand luggage only</option>
+    <option value="1-bag-10kg">1 bag up to 10kg</option>
+    <option value="2-bags-10kg">2 bags up to 10kg each</option>
+    <option value="1-bag-20kg">1 bag up to 20kg</option>
+    <option value="2-bags-20kg">2 bags up to 20kg each</option>
+    <option value="3-bags-20kg">3 bags up to 20kg each</option>
+    <option value="4-bags-20kg">4 bags up to 20kg each</option>
+    <option value="mixed">Mixed luggage</option>
+    <option value="excess">Excess / Large luggage</option>
+    <option value="not-sure">Not sure — please advise</option>
+  </select>
+</div>
 
       <div class="field">
         <label for="journeyType">Journey Type</label>

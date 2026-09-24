@@ -266,6 +266,9 @@ if (quoteForm) {
       const passengers =
         document.getElementById('passengers')
           .value;
+        
+      const luggage =
+      document.getElementById('luggage').value;
 
 
       // ============ REQUIRED FIELD VALIDATION ============
@@ -277,7 +280,8 @@ if (quoteForm) {
         !pickupDate ||
         !pickupLocation ||
         !destination ||
-        !passengers
+        !passengers ||
+        !luggage
       ) {
 
         formStatus.textContent =
